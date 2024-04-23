@@ -1,0 +1,64 @@
+/* Add your custom styles here */
+
+/* Center the form vertically and horizontally */
+.text-center {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the form container */
+.earth-day-container {
+  max-width: 600px;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form headings */
+h1, h2 {
+  color: rgb(64, 64, 68);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Style the form inputs */
+.form-outline {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-outline input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+.btn-primary {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(46, 46, 71);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the social login buttons */
+.btn-link.btn-floating {
+  color: rgb(37, 37, 44);
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+
+  
+}
